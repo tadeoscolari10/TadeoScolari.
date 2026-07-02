@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Encuesta Carbonara</title>
+</head>
+
+<body>
+    <h2>¿Qué opinás de la auténtica Carbonara?</h2>
+
+    <form>
+        <input type="text" required name="Nombre" placeholder="Ingrese Nombre" minlength="3">
+        <input type="text" required name="Apellido" placeholder="Ingrese Apellido"> <br>
+        
+        <label>Elegí tu color favorito para un plato de pasta:</label><br>
+        <input type="color" ><br>
+        
+        <input type="email" required placeholder="Ingrese su Email"><br>
+        <input type="password" required placeholder="Contraseña de usuario"><br>
+        
+        <label><input type="checkbox"> Acepto los términos y condiciones de los amantes de la pasta</label><br>
+        
+        <p>¿Qué queso preferís?</p>
+        <input type="radio" name="queso" value="pecorino"> Pecorino Romano<br>
+        <input type="radio" name="queso" value="parmesano"> Parmesano Reggiano<br>
+        
+        <label>Subí la foto de tu plato:</label><br>
+        <input type="file"><br>
+        
+        <label>¿Cuándo cocinaste carbonara por última vez?:</label><br>
+        <input type="date" required><br>
+        
+        <textarea rows="10" cols="30" name="comment" placeholder="Dejanos tu secreto para que no se corte el huevo..."></textarea><br>
+        
+        <input type="submit" value="Enviar encuesta"><br>
+    </form>
+<br>
+    <label>¿Qué modificación le harías a la receta?</label><br>
+    <input list="tipo">
+        <datalist id="tipo">
+            <option value="Le agregaría Crema (¡Pecado!)" />
+            <option value="La haría con panceta ahumada" />
+            <option value="Usaría fideos integrales" />
+        </datalist><br>
+<label>¿Cuál es tu pasta favorita para esta salsa?</label><br>
+    <select name="Salsa-opcion">
+        <option value="Spaghetti">Spaghetti (Espaguetis)</option>
+        <option value="Rigatoni">Rigatoni</option>
+        <option value="Penne">Penne Rigate (Plumitas)</option>
+    </select><br>
+<br> 
+    <a href="index(1).html">¿Por qué la Salsa Carbonara es la mejor del mundo?</a><br>
+    <a href="Enlaces.html">Sobre Mi</a><br>
+
+</body>
+</html>
